@@ -1,7 +1,23 @@
 $body-color: red;
 $back-color: green;
+$button-width: 50px;
+$button-height: 50px;
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+    transform: $property;
+  }
 
 body {
   color: $body-color;
   background-color: $back-color;
 }
+
+.button {
+    width: $button-width;
+    height: $button-height;
+}
+
+
+.box { @include transform(rotate(30deg)); }
