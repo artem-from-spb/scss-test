@@ -21,7 +21,7 @@
     "cssnano": "^5.1.8",
     "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.6.0",
+    "mini-css-extract-plugin": "^2.7.0",
     "node-sass": "^8.0.0",
     "postcss-loader": "^7.0.0",
     "sass-loader": "^13.2.0",
